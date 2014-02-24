@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iQr' target in the 'iQr' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

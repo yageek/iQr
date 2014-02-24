@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7847D45C16D64F6C0062033A /* YGQrcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847D45B16D64F6C0062033A /* YGQrcode.m */; };
+		7847D45F16D65B730062033A /* YGBasicData.c in Sources */ = {isa = PBXBuildFile; fileRef = 7847D45E16D65B730062033A /* YGBasicData.c */; };
+		7898CF2016D2425400EE4421 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7898CF1F16D2425400EE4421 /* Cocoa.framework */; };
+		7898CF2A16D2425400EE4421 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7898CF2816D2425400EE4421 /* InfoPlist.strings */; };
+		7898CF2C16D2425400EE4421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7898CF2B16D2425400EE4421 /* main.m */; };
+		7898CF3016D2425400EE4421 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7898CF2E16D2425400EE4421 /* Credits.rtf */; };
+		7898CF3316D2425400EE4421 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7898CF3216D2425400EE4421 /* AppDelegate.m */; };
+		7898CF3616D2425400EE4421 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7898CF3416D2425400EE4421 /* MainMenu.xib */; };
+		78B3C4C216D3C0A900E63420 /* libqrencode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B3C4C116D3C0A900E63420 /* libqrencode.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7898CF4716D253DC00EE4421 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7847D45A16D64F6C0062033A /* YGQrcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGQrcode.h; sourceTree = "<group>"; };
+		7847D45B16D64F6C0062033A /* YGQrcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGQrcode.m; sourceTree = "<group>"; };
+		7847D45D16D64FE70062033A /* YGBasicData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YGBasicData.h; path = iQr/YGBasicData.h; sourceTree = SOURCE_ROOT; };
+		7847D45E16D65B730062033A /* YGBasicData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = YGBasicData.c; sourceTree = "<group>"; };
+		7898CF1C16D2425400EE4421 /* iQr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7898CF1F16D2425400EE4421 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7898CF2216D2425400EE4421 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7898CF2316D2425400EE4421 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7898CF2416D2425400EE4421 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7898CF2716D2425400EE4421 /* iQr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iQr-Info.plist"; sourceTree = "<group>"; };
+		7898CF2916D2425400EE4421 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7898CF2B16D2425400EE4421 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7898CF2D16D2425400EE4421 /* iQr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iQr-Prefix.pch"; sourceTree = "<group>"; };
+		7898CF2F16D2425400EE4421 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7898CF3116D2425400EE4421 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7898CF3216D2425400EE4421 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7898CF3516D2425400EE4421 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		78B3C4C116D3C0A900E63420 /* libqrencode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqrencode.a; path = ../libqrencode/lib/libqrencode.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7898CF1916D2425400EE4421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B3C4C216D3C0A900E63420 /* libqrencode.a in Frameworks */,
+				7898CF2016D2425400EE4421 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7898CF1316D2425400EE4421 = {
+			isa = PBXGroup;
+			children = (
+				78B3C4C116D3C0A900E63420 /* libqrencode.a */,
+				7898CF2516D2425400EE4421 /* iQr */,
+				7898CF1E16D2425400EE4421 /* Frameworks */,
+				7898CF1D16D2425400EE4421 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7898CF1D16D2425400EE4421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7898CF1C16D2425400EE4421 /* iQr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7898CF1E16D2425400EE4421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7898CF1F16D2425400EE4421 /* Cocoa.framework */,
+				7898CF2116D2425400EE4421 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7898CF2116D2425400EE4421 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7898CF2216D2425400EE4421 /* AppKit.framework */,
+				7898CF2316D2425400EE4421 /* CoreData.framework */,
+				7898CF2416D2425400EE4421 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7898CF2516D2425400EE4421 /* iQr */ = {
+			isa = PBXGroup;
+			children = (
+				7847D45D16D64FE70062033A /* YGBasicData.h */,
+				7847D45E16D65B730062033A /* YGBasicData.c */,
+				7847D45A16D64F6C0062033A /* YGQrcode.h */,
+				7847D45B16D64F6C0062033A /* YGQrcode.m */,
+				7898CF3116D2425400EE4421 /* AppDelegate.h */,
+				7898CF3216D2425400EE4421 /* AppDelegate.m */,
+				7898CF3416D2425400EE4421 /* MainMenu.xib */,
+				7898CF2616D2425400EE4421 /* Supporting Files */,
+			);
+			path = iQr;
+			sourceTree = "<group>";
+		};
+		7898CF2616D2425400EE4421 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7898CF2716D2425400EE4421 /* iQr-Info.plist */,
+				7898CF2816D2425400EE4421 /* InfoPlist.strings */,
+				7898CF2B16D2425400EE4421 /* main.m */,
+				7898CF2D16D2425400EE4421 /* iQr-Prefix.pch */,
+				7898CF2E16D2425400EE4421 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7898CF1B16D2425400EE4421 /* iQr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7898CF3916D2425400EE4421 /* Build configuration list for PBXNativeTarget "iQr" */;
+			buildPhases = (
+				7898CF1816D2425400EE4421 /* Sources */,
+				7898CF1916D2425400EE4421 /* Frameworks */,
+				7898CF1A16D2425400EE4421 /* Resources */,
+				7898CF4716D253DC00EE4421 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iQr;
+			productName = iQr;
+			productReference = 7898CF1C16D2425400EE4421 /* iQr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7898CF1416D2425400EE4421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "HEINRICH Yannick";
+			};
+			buildConfigurationList = 7898CF1716D2425400EE4421 /* Build configuration list for PBXProject "iQr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7898CF1316D2425400EE4421;
+			productRefGroup = 7898CF1D16D2425400EE4421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7898CF1B16D2425400EE4421 /* iQr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7898CF1A16D2425400EE4421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7898CF2A16D2425400EE4421 /* InfoPlist.strings in Resources */,
+				7898CF3016D2425400EE4421 /* Credits.rtf in Resources */,
+				7898CF3616D2425400EE4421 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7898CF1816D2425400EE4421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7898CF2C16D2425400EE4421 /* main.m in Sources */,
+				7898CF3316D2425400EE4421 /* AppDelegate.m in Sources */,
+				7847D45C16D64F6C0062033A /* YGQrcode.m in Sources */,
+				7847D45F16D65B730062033A /* YGBasicData.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7898CF2816D2425400EE4421 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7898CF2916D2425400EE4421 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7898CF2E16D2425400EE4421 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7898CF2F16D2425400EE4421 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7898CF3416D2425400EE4421 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7898CF3516D2425400EE4421 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7898CF3716D2425400EE4421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7898CF3816D2425400EE4421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7898CF3A16D2425400EE4421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../zxing\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iQr/iQr-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Users/yaya/Dev/iQr/libqrencode/include/;
+				INFOPLIST_FILE = "iQr/iQr-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../libqrencode/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7898CF3B16D2425400EE4421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../zxing\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iQr/iQr-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Users/yaya/Dev/iQr/libqrencode/include/;
+				INFOPLIST_FILE = "iQr/iQr-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../libqrencode/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7898CF1716D2425400EE4421 /* Build configuration list for PBXProject "iQr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898CF3716D2425400EE4421 /* Debug */,
+				7898CF3816D2425400EE4421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7898CF3916D2425400EE4421 /* Build configuration list for PBXNativeTarget "iQr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898CF3A16D2425400EE4421 /* Debug */,
+				7898CF3B16D2425400EE4421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7898CF1416D2425400EE4421 /* Project object */;
+}
